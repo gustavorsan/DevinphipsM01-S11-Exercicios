@@ -11,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { InfoComponent } from './pages/info/info.component';
 import { PrecosComponent } from './pages/precos/precos.component';
 import { ListComponent } from './components/list/list.component';
+import { ModalComponent } from './components/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ListComponent } from './components/list/list.component';
     HomeComponent,
     InfoComponent,
     PrecosComponent,
-    ListComponent
+    ListComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
