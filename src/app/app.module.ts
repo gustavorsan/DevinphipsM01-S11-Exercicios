@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { InfoComponent } from './pages/info/info.component';
 import { PrecosComponent } from './pages/precos/precos.component';
+import { ListComponent } from './components/list/list.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PrecosComponent } from './pages/precos/precos.component';
     HeaderComponent,
     HomeComponent,
     InfoComponent,
-    PrecosComponent
+    PrecosComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
