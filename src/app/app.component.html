@@ -1,1 +1,10 @@
-<app-captalise-example></app-captalise-example>
+<app-header (emitPage)="changePage($event)"></app-header>
+
+
+
+<div [ngSwitch]="page" class="container" style="margin-top: 15px;">
+  <h2 *ngSwitchDefault>Estou na página de Home</h2>
+  <h2 *ngSwitchCase="'precos'">Estou na página de Preços</h2>
+  <h2 *ngSwitchCase="'info'">Estou na página de Informações</h2>
+  <app-captalise-example *ngSwitchCase="'auto-captalize'"></app-captalise-example>
+</div>
