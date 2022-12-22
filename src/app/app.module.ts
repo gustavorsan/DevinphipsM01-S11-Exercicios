@@ -13,6 +13,7 @@ import { PrecosComponent } from './pages/precos/precos.component';
 import { ListComponent } from './components/list/list.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { ContentExampleComponent } from './components/content-example/content-example.component';
+import { InputCheckComponent } from './components/input-check/input-check.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ContentExampleComponent } from './components/content-example/content-ex
     PrecosComponent,
     ListComponent,
     ModalComponent,
-    ContentExampleComponent
+    ContentExampleComponent,
+    InputCheckComponent
   ],
   imports: [
     BrowserModule,

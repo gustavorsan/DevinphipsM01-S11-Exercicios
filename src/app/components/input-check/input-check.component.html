@@ -1,0 +1,13 @@
+<div class="form-group">
+  <label for="pwd">Password:</label>
+  <input type="password" class="form-control" id="pwd" [(ngModel)]="pwd">
+</div>
+<div  *ngIf="pwd.length > 3 else erro">
+  <p style="color: green;">password ok</p>
+ </div>
+ 
+ <ng-template #erro>
+  <div [hidden]="pwd.length == 0" >
+    <p style="color: red;">o password deve ser maior 3</p>
+   </div>
+ </ng-template>
