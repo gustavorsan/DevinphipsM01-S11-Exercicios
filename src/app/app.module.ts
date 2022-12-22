@@ -12,6 +12,7 @@ import { InfoComponent } from './pages/info/info.component';
 import { PrecosComponent } from './pages/precos/precos.component';
 import { ListComponent } from './components/list/list.component';
 import { ModalComponent } from './components/modal/modal.component';
+import { ContentExampleComponent } from './components/content-example/content-example.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ModalComponent } from './components/modal/modal.component';
     InfoComponent,
     PrecosComponent,
     ListComponent,
-    ModalComponent
+    ModalComponent,
+    ContentExampleComponent
   ],
   imports: [
     BrowserModule,
