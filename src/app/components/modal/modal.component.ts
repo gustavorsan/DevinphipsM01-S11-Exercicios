@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./modal.component.css']
 })
 export class ModalComponent {
-  showModal = true;
+  showModal = false;
 
   toggleModalOpen(){
     this.showModal = !this.showModal;
